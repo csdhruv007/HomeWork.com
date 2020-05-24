@@ -1,0 +1,55 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.height {
+  min-height: 100vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(images/emile-perron-xrVDYZRGdw4-unsplash.jpg) center/cover no-repeat;
+
+  width: 100;
+  height: auto;
+}
+.title-underline {
+  width: 165px;
+  height: 7px;
+  margin: 0 auto;
+}
+#image {
+  max-height: 76px;
+  max-width: 200px;
+  width: 120px;
+  height: 120px;
+}
+#skills {
+  background: url(images/desk-office-computer-imac-70581.jpg) center/cover
+    no-repeat;
+
+  width: 100;
+  height: auto;
+}
+#project {
+  background: url(images/blur-business-communication-computer-317372.jpg)
+    center/cover no-repeat;
+
+  width: 100;
+  height: auto;
+}
+.carousel-inner img {
+  margin: auto;
+}
+img {
+  border-radius: 15%;
+}
+#About {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url(images/_DSC6917.jpg) center/cover no-repeat;
+
+  width: 100;
+  height: auto;
+}
+#footer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+}
+html {
+  scroll-behavior: smooth;
+}
